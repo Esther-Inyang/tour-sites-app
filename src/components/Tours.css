@@ -65,6 +65,8 @@
   font-size: 16px;
   margin: 20px 0;
   text-align: justify;
+  text-justify: distribute;
+  /* text-align-last: left; */
 }
 
 .readmore-btn {
