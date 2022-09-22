@@ -11,7 +11,6 @@
     rgba(200, 226, 245),
     rgb(200, 5, 70, 0.5)
   );
-
   padding: 30px 0;
 }
 
@@ -31,12 +30,12 @@
   font-weight: 600;
   font-size: 15px;
   margin-top: 30px;
+  cursor: pointer;
   transition: all 0.2s linear;
-  background-color: royalblue;
+  background-color: rgb(5, 23, 77);
 }
 
 .refresh-btn:hover {
-  color: white;
-  cursor: pointer;
-  background-color: rgb(250, 90, 144);
+  color: rgb(5, 23, 77);
+  background-color: rgb(249, 149, 182);
 }

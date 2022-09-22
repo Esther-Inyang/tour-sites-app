@@ -19,12 +19,12 @@ function Tours({ tourData, removeTour }) {
                 <p className="price">${price}</p>
               </div>
               <p className="info">
-                {readMore ? info : `${info.substring(0, 300)}...`}
+                {readMore ? info : `${info.substring(0, 300)}`}
                 <button
                   onClick={() => setReadMore(!readMore)}
                   className="readmore-btn"
                 >
-                  {readMore ? "show less" : "read more"}
+                  {readMore ? "show less" : "...read more"}
                 </button>
               </p>
               <div className="btn-container">
