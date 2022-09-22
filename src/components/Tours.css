@@ -64,9 +64,8 @@
 .info {
   font-size: 16px;
   margin: 20px 0;
-  text-align: justify;
-  text-justify: distribute;
-  /* text-align-last: left; */
+  padding: 10px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
 }
 
 .readmore-btn {
@@ -120,5 +119,11 @@
   }
   .img {
     height: 350px;
+  }
+
+  .info {
+    text-align: justify;
+    padding: 0;
+    box-shadow: none;
   }
 }
